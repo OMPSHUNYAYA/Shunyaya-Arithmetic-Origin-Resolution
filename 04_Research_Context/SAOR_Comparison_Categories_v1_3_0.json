@@ -1,0 +1,17 @@
+{
+  "project": "Shunyaya Arithmetic Origin Resolution",
+  "version": "1.3.0",
+  "comparison_categories": [
+    "equal-sum/equal-product integer realizations",
+    "factorization and common-factor graphs",
+    "fixed-sum partitions with common parts",
+    "forbidden-part additive representation",
+    "finite gap and eventual representability phenomena",
+    "contextual and observational equivalence",
+    "syntactic quotients under future contexts",
+    "additive invariants on commutative context systems",
+    "mixed additive and finite-support state systems"
+  ],
+  "priority_claim": false,
+  "bibliography_in_repository": false
+}

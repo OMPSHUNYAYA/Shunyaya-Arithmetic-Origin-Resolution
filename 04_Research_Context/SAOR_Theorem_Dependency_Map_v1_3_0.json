@@ -1,0 +1,52 @@
+{
+  "project": "Shunyaya Arithmetic Origin Resolution",
+  "version": "1.3.0",
+  "dependencies": {
+    "general_critical_support_synthesis": [
+      "dual_twin_semantics",
+      "prime_cover",
+      "atom_deficit",
+      "safe_filler_reduction",
+      "two_filler_eventual_separator"
+    ],
+    "future_stable_general_signature": [
+      "general_critical_support_synthesis",
+      "additive_context_statistics",
+      "support_union"
+    ],
+    "sharp_support_sensitive_classifier": [
+      "dual_twin_semantics",
+      "product_twin_under_prime_cover_atom_deficit",
+      "module4_gap_analysis_both_sides",
+      "module5_gap_analysis_both_sides",
+      "prime5_escape"
+    ],
+    "sharp_complete_future_classifier": [
+      "sharp_support_sensitive_classifier",
+      "mixed_context_action",
+      "constructive_coordinate_separators"
+    ],
+    "affine_aggregate_compression": [
+      "D4_D5_formulas",
+      "N_S_reconstruction"
+    ],
+    "anchored_cone_corollary": [
+      "general_critical_support_synthesis",
+      "prime_cover",
+      "atom_deficit",
+      "uncovered_prime_anchor",
+      "atom_threshold"
+    ],
+    "support_necessity_extraction": [
+      "general_critical_support_synthesis",
+      "finite_low_residual_table",
+      "realizability_search",
+      "definition_level_certificates"
+    ],
+    "sharp_unique_minimum_support": [
+      "sharp_support_sensitive_classifier",
+      "single_prime_support_difference_witnesses_5_7_11",
+      "no_support_coordinate_at_or_above_13"
+    ]
+  }
+}

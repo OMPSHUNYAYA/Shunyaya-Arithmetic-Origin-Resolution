@@ -1,0 +1,12 @@
+Shunyaya Arithmetic Origin Resolution (SAOR)
+Third-Party Notices
+
+No third-party source code, figures, research text, datasets, or software
+artifacts are included in this research package.
+
+Generic research-comparison categories are described in project-authored
+language under 04_Research_Context/. Those comparison materials do not copy
+third-party exposition.
+
+The local LICENSES/ directory contains standard license texts governing this
+repository's software and documentation.

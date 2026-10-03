@@ -1,0 +1,62 @@
+{
+  "project": "Shunyaya Arithmetic Origin Resolution",
+  "version": "1.3.0",
+  "claims": [
+    {
+      "id": "C1",
+      "name": "dual_twin_masking_semantics",
+      "status": "definition"
+    },
+    {
+      "id": "C2",
+      "name": "product_twin_under_prime_cover_atom_deficit",
+      "status": "proved"
+    },
+    {
+      "id": "C3",
+      "name": "safe_filler_reduction",
+      "status": "proved"
+    },
+    {
+      "id": "C4",
+      "name": "two_filler_eventual_separator",
+      "status": "proved"
+    },
+    {
+      "id": "C5",
+      "name": "finite_critical_support_synthesis",
+      "status": "proved"
+    },
+    {
+      "id": "C6",
+      "name": "future_stability_of_synthesized_signature",
+      "status": "proved"
+    },
+    {
+      "id": "C7",
+      "name": "sharp_unique_minimum_critical_support_5_7_11",
+      "status": "proved_unique_minimum_within_N_S_support_signatures"
+    },
+    {
+      "id": "C8",
+      "name": "sharp_complete_future_classifier",
+      "status": "proved_iff"
+    },
+    {
+      "id": "C9",
+      "name": "affine_aggregate_compression",
+      "status": "structural_corollary"
+    },
+    {
+      "id": "C10",
+      "name": "anchored_cone_corollary",
+      "status": "proved_corollary"
+    },
+    {
+      "id": "C11",
+      "name": "support_necessity_extraction_algorithm",
+      "status": "certified_necessity_with_bounded_nonwitness_evidence"
+    }
+  ],
+  "historical_priority_claim": false
+}

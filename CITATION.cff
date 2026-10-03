@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use Shunyaya Arithmetic Origin Resolution (SAOR), please cite the project using these metadata. Software is Apache-2.0; documentation is separately licensed under CC BY-NC 4.0 as described in LICENSE."
+title: "Shunyaya Arithmetic Origin Resolution (SAOR)"
+type: software
+authors:
+  - name: "Shunyaya Framework Authors"
+version: 1.3.0
+repository-code: "https://github.com/OMPSHUNYAYA/Shunyaya-Arithmetic-Origin-Resolution"
+url: "https://github.com/OMPSHUNYAYA/Shunyaya-Arithmetic-Origin-Resolution"
+abstract: >-
+  Shunyaya Arithmetic Origin Resolution develops an exact arithmetic theory
+  of realization behaviour under common prime context. Its v1.3.0 results
+  include a general finite critical-support synthesis theorem, an anchored-cone
+  corollary for every distinct equal-sum/equal-product pair, and a sharp
+  complete future classifier with unique minimum critical support {5,7,11}.
+keywords:
+  - arithmetic realization
+  - equal sum and product
+  - retained-factor transfer
+  - critical support
+  - context resolution
+  - exact classification
+  - verification
+license: Apache-2.0

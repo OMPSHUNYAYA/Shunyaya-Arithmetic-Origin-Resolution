@@ -1,0 +1,52 @@
+Shunyaya Arithmetic Origin Resolution (SAOR)
+
+LICENSE MAP
+===========
+
+1. Software, verification code, workflows, and machine-readable scientific artifacts
+-----------------------------------------------------------------------------------
+
+Project-authored software, verification code, workflow/configuration files,
+JSON scientific records, computational bindings, and machine-readable
+verification artifacts are licensed under:
+
+Apache License 2.0
+SPDX-License-Identifier: Apache-2.0
+
+Complete local license text:
+LICENSES/Apache-2.0.txt
+
+2. Documentation and research exposition
+-----------------------------------------
+
+Project-authored README material, theorem exposition, proof documentation,
+semantics documentation, verification guides, scope documents, research
+positioning, claim-boundary documentation, architecture documentation, and
+worked-example prose are licensed under:
+
+Creative Commons Attribution-NonCommercial 4.0 International
+SPDX-License-Identifier: CC-BY-NC-4.0
+
+Complete local license text:
+LICENSES/CC-BY-NC-4.0.txt
+
+3. Research comparison
+----------------------
+
+The comparison materials under `04_Research_Context/` use project-authored,
+category-level mathematical positioning only. They do not reproduce specific
+external articles, figures, tables, datasets, or source code.
+
+4. Mathematical content boundary
+--------------------------------
+
+Copyright and repository licenses govern project-authored expression and
+implementation. They do not assert ownership of mathematical facts,
+equations, abstract theorem statements, standard mathematical methods, or
+independently developed proofs.
+
+5. Third-party materials
+------------------------
+
+Third-party materials remain subject to their respective rights and terms.
+See `THIRD_PARTY_NOTICES.txt`.

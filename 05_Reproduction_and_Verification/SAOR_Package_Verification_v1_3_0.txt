@@ -1,0 +1,108 @@
+Shunyaya Arithmetic Origin Resolution v1.3.0
+Package verification record
+
+=== python -B verify.py --self-test ===
+SAOR v1.3.0 root verification
+integrity:PASS:checks=253:bound_files=28
+SAOR core verification: PASS
+SAOR general critical-support synthesis verifier v1.3.0
+product_twin_definition_level:PASS:checks=112:definition_level_no_one_sided_P_neighbour
+finite_critical_support_reduction:PASS:direct_vs_synthesized=6808
+multi_anchor_exact_synthesis:PASS:checks=264
+two_filler_eventual_separator:PASS:explicit_separators=3600:second_branch_cases=426
+future_stable_signature:PASS:equal_signature_pairs=26:future_checks=260
+arity_boundary:PASS:checks=3426:no_distinct_arity2_pairs:k>=2
+sharp_instance_binding:PASS:anchor=(2, 3):Omega=7<2m0=10;anchor=(2, 3, 4, 17):Omega=10<2m0=14:bare_seed_fails_prime_cover
+TOTAL 7/7 PASS
+SAOR sharp support-sensitive classifier verifier v1.3.0
+closed_form_vs_general_synthesis:PASS:contexts=560
+closed_form_vs_definition_level:PASS:contexts=66
+prime5_escape:PASS:checks=1:definition_level
+critical_support_unique_minimum:PASS:witnesses=3:support=(5,7,11):single_prime_support_differences:definition_level
+primes_at_least_13_irrelevant:PASS:checks=180
+mixed_context_action:PASS:checks=49
+complete_future_classifier:PASS:pairs=378:separators_vs_synthesis=378:separators_vs_definition_level=232:equal_signature_future_checks=8
+TOTAL 7/7 PASS
+SAOR anchored-cone corollary verifier v1.3.0
+census:arity=3:values<=30:pairs=182:prime_cover=0:atom_deficit=18:both=0
+census:arity=4:values<=18:pairs=596:prime_cover=0:atom_deficit=182:both=0
+census:arity=5:values<=12:pairs=573:prime_cover=3:atom_deficit=347:both=3
+canonical_anchor_makes_every_pair_admissible:PASS:pairs=126
+cone_classifier_vs_definition_level:PASS:cases=756:no_one_sided_P_neighbour
+atom_threshold_sufficient:PASS:examples=3:(2, 18, 24)/(3, 9, 32):t=1:sharp=True;(6, 18, 32)/(8, 12, 36):t=3:sharp=True;(12, 30, 54)/(18, 18, 60):t=2:sharp=False
+info:bare_seed_empty_context_one_sided={'P_one_sided_A': True, 'P_one_sided_B': False, 'S_one_sided_A': True, 'S_one_sided_B': True}
+TOTAL 3/3 PASS
+SAOR critical-support necessity verifier v1.3.0
+state_classifier_vs_closed_form:PASS:contexts=1001
+fixed_modules_blind_extraction:PASS:module4=(5, 7):module5=(5, 7, 11):joint=(5,7,11)
+certificates_vs_definition_level:PASS:fixed=5:anchored_pairs=4:anchored_certificates=6
+TOTAL 3/3 PASS
+SAOR direct transfer-graph definition-level verification v1.3.0
+semantics:dual_twinhood_in_P_and_S_external_neighbour_sets
+definition_level_masking:PASS:checks=330:max_context_size=3
+SAOR cross-proof consistency audit v1.3.0
+fixed_module_hypothesis_checks:PASS:checks=6
+algebraic_identity_spot_checks:PASS:checks=2122:implied_by_algebra
+machine_record_consistency:PASS:checks=4
+scope:general_synthesis_requires_prime_cover_atom_deficit_arity_at_least_3
+scope:sharp_complete_classifier_is_fixed_two_module_system
+CONSISTENCY AUDIT: PASS
+SAOR static-projection escape regression: PASS
+SAOR contextual masking oscillation regression: PASS
+SAOR rank-two context regression: PASS
+SAOR affine compression corollary regression: PASS
+SAOR support-sensitive escape regression: PASS
+ROOT VERIFICATION: PASS
+
+=== python -B verify.py --verify ===
+SAOR v1.3.0 root verification
+integrity:PASS:checks=253:bound_files=28
+SAOR core verification: PASS
+SAOR general critical-support synthesis verifier v1.3.0
+product_twin_definition_level:PASS:checks=336:definition_level_no_one_sided_P_neighbour
+finite_critical_support_reduction:PASS:direct_vs_synthesized=6808
+multi_anchor_exact_synthesis:PASS:checks=1144
+two_filler_eventual_separator:PASS:explicit_separators=10800:second_branch_cases=1143
+future_stable_signature:PASS:equal_signature_pairs=26:future_checks=260
+arity_boundary:PASS:checks=3426:no_distinct_arity2_pairs:k>=2
+sharp_instance_binding:PASS:anchor=(2, 3):Omega=7<2m0=10;anchor=(2, 3, 4, 17):Omega=10<2m0=14:bare_seed_fails_prime_cover
+TOTAL 7/7 PASS
+SAOR sharp support-sensitive classifier verifier v1.3.0
+closed_form_vs_general_synthesis:PASS:contexts=2380
+closed_form_vs_definition_level:PASS:contexts=1001
+prime5_escape:PASS:checks=1:definition_level
+critical_support_unique_minimum:PASS:witnesses=3:support=(5,7,11):single_prime_support_differences:definition_level
+primes_at_least_13_irrelevant:PASS:checks=180
+mixed_context_action:PASS:checks=49
+complete_future_classifier:PASS:pairs=3486:separators_vs_synthesis=3486:separators_vs_definition_level=1252:equal_signature_future_checks=8
+TOTAL 7/7 PASS
+SAOR anchored-cone corollary verifier v1.3.0
+census:arity=3:values<=30:pairs=182:prime_cover=0:atom_deficit=18:both=0
+census:arity=4:values<=18:pairs=596:prime_cover=0:atom_deficit=182:both=0
+census:arity=5:values<=12:pairs=573:prime_cover=3:atom_deficit=347:both=3
+canonical_anchor_makes_every_pair_admissible:PASS:pairs=228
+cone_classifier_vs_definition_level:PASS:cases=4788:no_one_sided_P_neighbour
+atom_threshold_sufficient:PASS:examples=3:(2, 18, 24)/(3, 9, 32):t=1:sharp=True;(6, 18, 32)/(8, 12, 36):t=3:sharp=True;(12, 30, 54)/(18, 18, 60):t=2:sharp=False
+info:bare_seed_empty_context_one_sided={'P_one_sided_A': True, 'P_one_sided_B': False, 'S_one_sided_A': True, 'S_one_sided_B': True}
+TOTAL 3/3 PASS
+SAOR critical-support necessity verifier v1.3.0
+state_classifier_vs_closed_form:PASS:contexts=1001
+fixed_modules_blind_extraction:PASS:module4=(5, 7):module5=(5, 7, 11):joint=(5,7,11)
+certificates_vs_definition_level:PASS:fixed=5:anchored_pairs=6:anchored_certificates=8
+TOTAL 3/3 PASS
+SAOR direct transfer-graph definition-level verification v1.3.0
+semantics:dual_twinhood_in_P_and_S_external_neighbour_sets
+definition_level_masking:PASS:checks=6006:max_context_size=5
+SAOR cross-proof consistency audit v1.3.0
+fixed_module_hypothesis_checks:PASS:checks=6
+algebraic_identity_spot_checks:PASS:checks=40842:implied_by_algebra
+machine_record_consistency:PASS:checks=4
+scope:general_synthesis_requires_prime_cover_atom_deficit_arity_at_least_3
+scope:sharp_complete_classifier_is_fixed_two_module_system
+CONSISTENCY AUDIT: PASS
+SAOR static-projection escape regression: PASS
+SAOR contextual masking oscillation regression: PASS
+SAOR rank-two context regression: PASS
+SAOR affine compression corollary regression: PASS
+SAOR support-sensitive escape regression: PASS
+ROOT VERIFICATION: PASS

@@ -1,0 +1,65 @@
+{
+  "project": "Shunyaya Arithmetic Origin Resolution",
+  "version": "1.3.0",
+  "principal_general_result": "General Prime-Context Critical-Support Synthesis Theorem",
+  "general_hypotheses": [
+    "equal_sum_product",
+    "common_arity_at_least_3",
+    "finite_prime_context",
+    "prime_cover",
+    "atom_deficit"
+  ],
+  "general_conclusion": {
+    "exact_masking_classifier": true,
+    "finite_critical_support": true,
+    "future_stable_signature": true,
+    "general_minimality_claim": false
+  },
+  "sharp_result": {
+    "modules": 2,
+    "complete_future_classifier": true,
+    "signature": [
+      "D4",
+      "D5",
+      "eps5",
+      "eps7",
+      "eps11"
+    ],
+    "unique_minimum_critical_support": [
+      5,
+      7,
+      11
+    ],
+    "minimum_scope": "signatures of the form (N,S,supp(E) intersect C)"
+  },
+  "structural_corollary": {
+    "D4_D5_equivalent_to_N_S": true,
+    "integer_affine_character_rank": 2
+  },
+  "historical_priority_claim": false,
+  "anchored_cone_corollary": {
+    "applies_to": "every distinct equal-sum/equal-product pair on an explicit anchored cone",
+    "anchor": "uncovered prime divisors U plus max(0,t0-|U|) copies of 2",
+    "atom_threshold": "t0=max(0,Omega(P0)-2*m0+1)",
+    "cone_upward_closed": true,
+    "atom_threshold_always_sharp": false,
+    "status": "proved_corollary"
+  },
+  "support_necessity_extraction": {
+    "necessity": "certified_by_explicit_definition_level_checked_witnesses",
+    "non_necessity": "bounded_search_evidence_only",
+    "fixed_modules_recovered": {
+      "module4": [
+        5,
+        7
+      ],
+      "module5": [
+        5,
+        7,
+        11
+      ]
+    },
+    "general_minimality_claim": false
+  },
+  "arity_at_least_3_automatic": true
+}

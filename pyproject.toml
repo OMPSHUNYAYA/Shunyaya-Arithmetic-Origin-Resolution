@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shunyaya-arithmetic-origin-resolution"
+version = "1.3.0"
+description = "Exact arithmetic origin resolution with finite critical-support synthesis and constructive future classification"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Shunyaya Framework Authors"}]
+license = "Apache-2.0"
+dependencies = []
+keywords = [
+  "arithmetic",
+  "equal-sum-equal-product",
+  "contextual equivalence",
+  "critical support",
+  "factorization dynamics",
+  "exact classification",
+  "verification",
+]
+
+[project.urls]
+Repository = "https://github.com/OMPSHUNYAYA/Shunyaya-Arithmetic-Origin-Resolution"
+
+[tool.setuptools]
+py-modules = ["saor_core"]
+package-dir = {"" = "02_Algorithms_and_Software"}

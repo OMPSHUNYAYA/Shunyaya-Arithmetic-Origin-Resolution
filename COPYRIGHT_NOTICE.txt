@@ -1,0 +1,8 @@
+Shunyaya Arithmetic Origin Resolution (SAOR)
+
+Copyright (c) 2026 Shunyaya Framework Authors.
+
+Project-authored expression and software are licensed according to the
+repository LICENSE map. Mathematical facts, equations, abstract theorem
+statements, standard methods, and independently developed proofs are not
+claimed as proprietary subject matter by this notice.
